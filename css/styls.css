@@ -28,6 +28,10 @@
   
  }
 
+ textarea {
+  resize: none;
+ }
+
  img {
   display: block;
  }
@@ -366,8 +370,124 @@
     border: 2px solid var(--bt-accent-color);
     box-shadow:var(--button-title-color);
   }
+/* форма модального вікна */
 
- 
+.form-title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 12px;
+
+
+color: #212121;
+
+}
+ .form {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+
+ }
+ .form-field {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+
+  
+ }
+
+ .form-input {
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 12px 42px;
+  margin-top: 4px;
+ }
+ .form-coment {
+  margin-bottom: 4px;
+ }
+ .textar {
+  padding: 16px 12px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+ }
+
+ .form-chek {
+  margin-left: 10px;
+  margin-bottom: 30px;
+ }
+
+ .checkbox {
+  
+ }
+ .bat-form {
+  align-items: center;
+  font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.88;
+ display: flex;
+ align-items: center;
+ text-align: center;
+ letter-spacing: 0.06em;
+ color: #FFFFFF;
+ padding: 10px 52px;
+ justify-content: center;
+ margin: 0 auto;
+ margin-bottom: 40px;
+ background: #188CE8;
+ border-radius: 4px;
+border: none;
+
+
+
+ }
+
+ .contrakte {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+color: #2196F3;
+
+ }
+
+.bat-form:hover {
+  background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid #188CE8;
+}
+
+
+
 
   /* main */  
 
