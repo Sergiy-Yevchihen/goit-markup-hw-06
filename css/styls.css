@@ -29,7 +29,7 @@
  }
 
  textarea {
-  resize: none;
+   resize: none; 
  }
 
  img {
@@ -297,10 +297,11 @@
     padding: 0;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  }
 
-
-    
+  .modal-but:hover .modal-of {
+    fill: #188CE8;
   }
 
   .modal {
@@ -370,9 +371,10 @@
     border: 2px solid var(--bt-accent-color);
     box-shadow:var(--button-title-color);
   }
+
 /* форма модального вікна */
 
-.form-title {
+ .form-title { 
   font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -380,47 +382,63 @@ font-size: 20px;
 line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
-margin-bottom: 12px;
-
-
-color: #212121;
+margin-bottom: 12px; 
+color: var(--titl-text-color);
 
 }
  .form {
   width: 448px;
   margin-left: auto;
   margin-right: auto;
-  
-  
-
- }
- .form-field {
-  display: flex;
-  flex-direction: column;
-  border: none;
   font-family: 'Roboto';
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: #757575;
+ }
+
 
   
+ 
+ .form-field {
+  display: flex;
+  flex-direction: column;
+  
  }
+
+ 
 
  .form-input {
   padding: 0;
   margin: 0;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
   margin-bottom: 10px;
   padding: 12px 42px;
   margin-top: 4px;
+ 
  }
+
+ .form-input:focus {
+  
+  border-color: #2196F3;
+ 
+ }
+  
+ 
+
+  
+
+
+
  .form-coment {
   margin-bottom: 4px;
+  
+
  }
+
  .textar {
   padding: 16px 12px;
   margin-bottom: 20px;
@@ -431,8 +449,14 @@ color: #212121;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+ }
+
+ .textar:focus {
+  outline: none;
+  border-color: #188CE8;
  }
 
  .form-chek {
@@ -440,9 +464,7 @@ color: #212121;
   margin-bottom: 30px;
  }
 
- .checkbox {
-  
- }
+
  .bat-form {
   align-items: center;
   font-family: 'Roboto';
@@ -461,29 +483,31 @@ color: #212121;
  margin-bottom: 40px;
  background: #188CE8;
  border-radius: 4px;
-border: none;
-
+ border: none;
+ 
 
 
  }
 
  .contrakte {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-text-decoration-line: underline;
-color: #2196F3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #2196F3;
 
  }
 
 .bat-form:hover {
+  cursor: pointer;
   background: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 1px solid #188CE8;
+
 }
 
 
